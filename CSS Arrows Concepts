@@ -10,3 +10,40 @@
 Thanks to Chris Coyier. Well explained.
 
 working demo @ : https://codepen.io/chriscoyier/pen/lotjh
+
+
+Code:
+
+<div class="up-arrow"></div>
+
+.up-arrow {
+    width: 100px;
+    height: 100px;
+    
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    
+    background-color: tan;
+
+    border: 10px solid;
+
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+
+    border-top-color: purple;
+    border-right-color: green;
+    border-bottom-color: steelblue;
+    border-left-color: yellow;
+
+    width: 0;
+    height: 0;
+
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+
+    background-color: transparent;
+}
